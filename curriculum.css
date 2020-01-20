@@ -1,0 +1,281 @@
+body{
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	font-family: Arial;
+	height: 924px;
+ 	background: black;
+
+}
+
+.aside-container
+{	display: flex;
+	flex-direction: column;
+	width: 195px;
+	background-color: #009DDC;
+	color: #FFFFFF;
+	padding-left: 48px;
+	padding-right: 48px;
+    text-align: center;
+    
+}
+
+
+	
+
+
+
+
+.img{
+
+margin-top: 67px;
+	margin-bottom: 5px;
+	border-radius: 50%;
+	width: 153px;
+	height: 153px;
+}
+hgroup h1{
+	font-size:19px;
+	margin-bottom: 37px; 
+
+
+}
+hgroup h2{
+	font-size: 18px;
+	font-weight: lighter;
+	margin-bottom: 37px;
+
+}
+
+.contacto{
+	border-top: 2px solid white;
+	
+	padding-bottom: 15px;
+	text-align: center;
+	
+}
+.CON{
+font-weight: 30;
+margin-top: 16px;
+margin-bottom: 20px;
+}
+.contactoList{
+
+	text-align: left;
+	
+	list-style-type:none;
+	
+	display: inline;
+	padding-left: 0px;
+}
+.C1{
+				
+				font-weight: 80;
+				
+				
+				padding-bottom: 5px;
+				
+				
+				background: url("img/llamada.png") 0px 0px no-repeat;
+				padding-left: 23px;
+				background-size:18px 18px;
+
+			}
+.C2{	
+
+				font-weight: 80;
+				
+				
+				padding-bottom: 5px;
+				
+				padding-top: 3px;
+				background: url("img/correo.png") 0px 3px no-repeat ;
+				padding-left: 23px;
+				background-size:18px 18px ;
+
+}
+
+.C3{
+				font-weight: 80;
+				
+				
+				padding-bottom: 27px;
+				
+				padding-top: 3px;
+				background: url("img/sitio.png") 0px 3px no-repeat;
+				padding-left: 23px;
+				background-size:18px 18px ;
+
+
+}
+
+
+.redes{
+	
+	border-top: 2px solid white;
+
+}
+.RED{
+	font-weight: 30;
+	margin-bottom: 5px;
+}
+.redesList{
+	text-align: left;
+	 list-style:none;
+	 display: inline;
+	 padding-left: 0px;
+
+
+	 
+
+}
+.R1{            
+				font-weight: 80;
+				
+				
+				padding-bottom: 5px;
+				
+				padding-top: 15px;
+				background: url("img/like2.png") 0px 15px no-repeat;
+				padding-left: 23px;
+				background-size:18px 18px ;
+
+}
+.link1{
+	color: #FFFFFF;
+}
+.R2{
+				font-weight: 80;
+				
+				
+				padding-bottom: 5px;
+				
+				padding-top: 3px;
+				background: url("img/linkedin.png") 0px 3px no-repeat;
+				padding-left: 23px;
+				background-size:18px 18px ;
+
+}
+.link2{
+	color: #FFFFFF;
+	}
+	
+.main-container{
+	display: flex;
+	flex-direction: column;
+	width: 628px;
+	background-color: #FFFFFF;
+	padding-left: 45px;
+}
+.H2exp{
+
+	margin-top: 15px;
+	color: #009DDC;
+	font-size: 15px;
+    font-weight: bold;
+	
+				
+	padding-bottom: 1px;
+				
+				padding-top: 25px;
+				background: url("img/trabajo1.png") 0px 23px no-repeat ;
+				padding-left: 23px;
+				background-size:18px 18px ;
+}
+
+.H2aca{
+	
+	font-weight: 80;
+	color: #009DDC;
+	font-size: 15px;
+    font-weight: bold;
+	padding-top: 15px;		
+	padding-bottom: 1px;
+				
+				
+				background: url("img/universidad.png") 0px 14px no-repeat ;
+				padding-left: 23px;
+				background-size:18px 18px ;
+}
+
+.H2hab{
+	margin-top: 10px;
+	font-weight: 80;
+	padding-right: 159px;
+		color: #009DDC;
+	font-size: 15px;
+    font-weight: bold;		
+	padding-bottom: 1px;
+				
+				padding-top: 11px;
+				background: url("img/diente.png") 0px 11px no-repeat ;
+				padding-left: 23px;
+				background-size:18px 18px ;
+}
+
+.H2con{
+	margin-top: 10px;
+	font-weight: 80;
+	color: #009DDC;
+	font-size: 15px;
+    font-weight: bold;
+				
+	padding-bottom: 1px;
+				
+				padding-top: 11px;
+				background: url("img/medalla.png") 0px 11px no-repeat ;
+				padding-left: 23px;
+				background-size:18px 18px ;
+}
+
+.H2est{
+	margin-top: 8px;
+	font-weight: 80;
+	color: #009DDC;
+	font-size: 15px;
+    font-weight: bold;
+				
+	padding-bottom: 1px;
+				
+				padding-top: 10px;
+				background: url("img/dos.png") 0px 10px no-repeat ;
+				padding-left: 23px;
+				background-size:18px 18px ;
+}
+
+section h3{
+	color: #5E5959;
+	font-size: 16px;
+}
+main section{
+	font-size: 14px;
+	font-weight: 20;
+	color: #6B6666;
+	
+}
+main section ul {
+	padding-left: 18px;
+	
+	
+	    margin-bottom: 5px;
+}
+main section h4{
+	margin-top: 2px;
+	margin-bottom: 5px;
+}
+main section p{
+	margin-top: 7px;
+	margin-bottom: 5px;
+}
+
+.F{
+        margin-top: 1px;
+}
+.Quality{
+	display: flex;
+	flex-direction:row;
+	
+}
+
+
+
